@@ -14,15 +14,19 @@ use yii\web\AssetBundle;
  *
  * @author Wanderson Bragança <wanderson.wbc@gmail.com>
  */
-class MultiSelectAsset extends AssetBundle
+class MultiSelectPluginAsset extends AssetBundle
 {
-    public $sourcePath = __DIR__ . '/assets';
+    public $sourcePath = '@bower/bootstrap-multiselect/dist';
+
+    public $js = [
+        'js/bootstrap-multiselect.js'
+    ];
 
     public $css = [
-        'css/yii2-multiselect.css'
+        'css/bootstrap-multiselect.css'
     ];
 
     public $depends = [
-        'wbraganca\multiselect\MultiSelectPluginAsset'
+        'yii\bootstrap\BootstrapPluginAsset'
     ];
 }

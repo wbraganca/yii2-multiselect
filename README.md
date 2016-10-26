@@ -10,13 +10,13 @@
 Via Composer
 
 ```bash
-$ composer require "wbraganca/yii2-multiselect:~1.0.0"
+$ composer require "wbraganca/yii2-multiselect:~1.0.1"
 ```
 
 or add
 
 ```
-"wbraganca/yii2-multiselect": "~1.0.0"
+"wbraganca/yii2-multiselect": "~1.0.1"
 ```
 
 to the require section of your `composer.json` file.

@@ -1,0 +1,7 @@
+.btn-group ul.multiselect-container {
+  min-width: 300px;
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 5px 0px;
+}
+
