@@ -29,7 +29,7 @@ On your view file.
 ```php
 
 <?php
-use wbraganca\multiselect\MultiselectWidget;
+use wbraganca\multiselect\MultiSelectWidget;
 ?>
 
 <?= MultiSelect::widget([
