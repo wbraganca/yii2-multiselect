@@ -40,8 +40,11 @@ use wbraganca\multiselect\MultiSelectWidget;
         'nonSelectedText' => 'Check an option!',
         'nSelectedText' => ' - Options selected!',
         'allSelectedText' => 'All',
-        'numberDisplayed' => 0,
+        'selectAllText' => 'Check all!',
+        'numberDisplayed' => 1,
         'enableCaseInsensitiveFiltering' => true,
+        'maxHeight' => 300, // The maximum height of the dropdown. This is useful when using the plugin with plenty of options.
+        'includeSelectAllOption' => true
     ],
     'data' => $cities,
     'model' => $model,
